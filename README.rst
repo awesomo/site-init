@@ -3,8 +3,14 @@ site-init
 Simple project scaffolding for the modern JS app.
 
 
+Why?
+----
+* To avoid the overhead and distraction spent on the boilerplate setup when prototyping a new site or webapp.
+* Because my bootstrap needs more bootstrapping
+
 Roadmap
 -------
+A (roughly) ordered set of features to add follows.
 
 Fundamental static
 ++++++++++++++++++
@@ -27,8 +33,8 @@ Compilation support
 * js minimization
 * js concatenation
 
-Server-side
-+++++++++++
+Server-side project layout
+++++++++++++++++++++++++++
 * flask
 * django
 
@@ -41,5 +47,9 @@ HTML5 Boilerplate content
 
 Bonus
 +++++
-* Dependency fetching
+* Dependency fetching on-demand (rather than storing static content here)
 * Modernizer
+* Theming
+	+ webfonts via google
+	+ kuler color scheme integration
+	+ icon sets
